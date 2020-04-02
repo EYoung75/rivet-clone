@@ -33,6 +33,9 @@ body {
     width: 55%;
     font-size: 3.5rem;
     padding: 0px 10rem; }
+    .hero__text > h1 {
+      line-height: 7rem;
+      font-weight: 800; }
 
 .whoSection {
   height: 75vh;
@@ -82,8 +85,7 @@ body {
     font-size: 1.6rem; }
     .navigation__links a {
       display: inline-block;
-      margin: 0;
-      text-transform: uppercase; }
+      margin: 0; }
     .navigation__links a:after {
       display: block;
       content: "";

@@ -14,18 +14,23 @@
     width: 55%;
     font-size: 3.5rem;
     padding: 0px 10rem;
+
+    & > h1 {
+      line-height: 7rem;
+      font-weight: 800;
+    }
   }
 }
 
 .whoSection {
-    height: 75vh;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 180%;
-    padding: 0px 10rem;
+  height: 75vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 180%;
+  padding: 0px 10rem;
 
   & > * {
     display: flex;
@@ -35,11 +40,11 @@
   }
 
   &__left {
-      flex: 4;
+    flex: 4;
   }
 
   &__right {
-      flex: 2;
-      align-items: center;
+    flex: 2;
+    align-items: center;
   }
 }
