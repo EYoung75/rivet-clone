@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap");
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px; }
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://wearerivet.com/app/uploads/2019/04/Rivet_Hero-1.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  background-position: center center;
+  margin: 5rem 0px; }
+  .hero__text {
+    width: 55%;
+    font-size: 3.5rem;
+    padding: 0px 10rem; }
+
+.whoSection {
+  height: 75vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 180%;
+  padding: 0px 10rem; }
+  .whoSection > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; }
+  .whoSection__left {
+    flex: 4; }
+  .whoSection__right {
+    flex: 2;
+    align-items: center; }
+
+.navigation {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  box-shadow: 0 0.1rem 0.1rem rgba(71, 71, 67, 0.8);
+  z-index: 5;
+  padding: 3rem 10rem; }
+  .navigation > * {
+    cursor: pointer; }
+  .navigation__links {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    color: #474743;
+    font-weight: 700;
+    font-size: 1.6rem; }
+    .navigation__links a {
+      display: inline-block;
+      margin: 0;
+      text-transform: uppercase; }
+    .navigation__links a:after {
+      display: block;
+      content: "";
+      transform: scaleX(0);
+      border-bottom: 2px solid #dd5925;
+      transition: transform 0.3s ease-in-out 0s; }
+    .navigation__links a:hover:after {
+      transform: scaleX(1); }
+    .navigation__links button {
+      color: white;
+      background-color: #dd5925;
+      text-transform: uppercase;
+      font-family: inherit;
+      font-weight: inherit;
+      letter-spacing: 0.15rem;
+      cursor: pointer;
+      padding: 1rem 2rem;
+      border-radius: 25px;
+      border-width: initial;
+      border-style: none;
+      border-color: initial;
+      border-image: initial;
+      transition: all 0.2s ease 0s; }
+      .navigation__links button:hover {
+        background-color: #e47b51; }
